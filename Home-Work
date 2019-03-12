@@ -32,7 +32,7 @@
 
  for (( i=2; i<=$((num / 2)); i++ ))
   do
-  if [ $((num%$i)) -eq 0 ]
+  if [ $((num%i)) -eq 0 ]
         then
         bool=false
         break
