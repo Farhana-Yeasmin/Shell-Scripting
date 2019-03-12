@@ -30,7 +30,7 @@
   bool=true
   read num
 
-  for (( i=2; i<$num; i++ ))
+ for (( i=2; i<=$((num / 2)); i++ ))
   do
   if [ $((num%$i)) -eq 0 ]
         then
